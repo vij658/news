@@ -70,6 +70,8 @@ def render_category(c):
         out.append(render_show(s))
     if c.get("excluded"):
         out.append(f'<p class="meta"><strong>Looked at / still open:</strong> {e(c["excluded"])}</p>')
+    if c.get("playlist"):
+        out.append(f'<p class="meta"><strong>✅ Saved playlist (private):</strong> {e(c["playlist"]["name"])} — {c["playlist"]["videos"]} videos</p>')
     ids = []
     for s in c["shows"]:
         if s.get("secondary"):

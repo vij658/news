@@ -1,758 +1,773 @@
 {
-  "checkpoint": 4,
-  "saved": "Mon 16 Nov 2026, ~01:05 CT",
-  "week": "9–15 Nov 2026",
-  "status": "Research is ~90% done. Finance, world, USA, tech, AI and Python have solid sources; India (mainstream), multi-sport and Java/new-paradigm coding are thin. <strong>No playlists created yet</strong> — YouTube is signed in (Premium); next step is creating 8 private playlists. Searches are paced 30 s apart so YouTube does not rate-limit the session.",
-  "gaps": [
-    "India: a mainstream (non-exam) weekly recap — two searches found nothing",
-    "Sports: a true multi-sport weekly — built sport by sport instead",
-    "World: a third solid weekly source",
-    "Coding: a weekly show for new paradigms (Rust, agentic coding…); Java only via a small channel",
-    "FRANCE 24: capture the 7 Nov episode ID"
-  ],
-  "categories": [
+ "checkpoint": 5,
+ "saved": "Mon 16 Nov 2026, ~01:40 CT",
+ "week": "9–15 Nov 2026",
+ "status": "Research done; <strong>4 of 8 private playlists built</strong> in your YouTube (Finance 5 videos, World 5, USA 6, India 5). Sports, Tech, Coding and AI are next. Playlists are private and named \"Weekly News - &lt;Category&gt;\" — open YouTube → Library → Playlists. Searches were paced 30 s apart.",
+ "gaps": [
+  "India: a mainstream (non-exam) weekly recap — two searches found nothing",
+  "Sports: a true multi-sport weekly — built sport by sport instead",
+  "World: a third solid weekly source",
+  "Coding: a weekly show for new paradigms (Rust, agentic coding…); Java only via a small channel"
+ ],
+ "categories": [
+  {
+   "id": "finance",
+   "name": "1 · Financial / Stock Market",
+   "shows": [
     {
-      "id": "finance",
-      "name": "1 · Financial / Stock Market",
-      "shows": [
-        {
-          "title": "Wall Street Week",
-          "channel": "Bloomberg Television",
-          "cadence": "weekly · Fridays",
-          "tag": "ok",
-          "note": "~56 min · long-form, guests + the week's themes · best source in this category",
-          "episodes": [
-            {
-              "id": "5jw4WtsMQqU",
-              "label": "Nvidia Shakeup, Midwest Stadium Bids… (13 Nov)",
-              "len": "56:37"
-            },
-            {
-              "id": "UACTCWikfLM",
-              "label": "Blue Wave Economic Impacts, European Welfare… (6 Nov)",
-              "len": "56:33"
-            },
-            {
-              "id": "k2QEU1awmxA",
-              "label": "Affordability, Data Center Divide, Debt… (~30 Oct)",
-              "len": "56:36"
-            },
-            {
-              "id": "mfGf-cTEERI",
-              "label": "America's Relationship Woes, Battery Pivot… (~16 Oct)",
-              "len": "56:39"
-            }
-          ],
-          "find": "https://www.youtube.com/@markets/search?query=Wall%20Street%20Week",
-          "find_label": "Find all episodes on the channel",
-          "handle": "@markets"
-        },
-        {
-          "title": "This Week in Review",
-          "channel": "Fisher Investments",
-          "handle": "@fisherinvestments",
-          "cadence": "weekly, with gaps",
-          "tag": "ok",
-          "note": "6–10 min · fast recap of markets, Fed, jobs, earnings · skipped some weeks in Oct",
-          "episodes": [
-            {
-              "id": "Zj1E7ZV0tdU",
-              "label": "Market Volatility, Q3 Earnings, US Inflation… (posted ~14 Nov)",
-              "len": "6:19"
-            },
-            {
-              "id": "FRumpi7-BcM",
-              "label": "Volatility, Midterm Elections, Central Banks, US Jobs (6 Nov)",
-              "len": "10:00"
-            },
-            {
-              "id": "qz6Ku3VttSw",
-              "label": "Bull Market Birthday, Q3 Earnings, US Inflation (16 Oct)",
-              "len": "8:15"
-            }
-          ],
-          "find": "https://www.youtube.com/@fisherinvestments/search?query=This%20Week%20in%20Review",
-          "find_label": "Find all episodes on the channel"
-        },
-        {
-          "title": "Weekly Market Week in Review",
-          "channel": "USMarketNews24",
-          "handle": "@USMarketNews24",
-          "cadence": "cadence not fully verified",
-          "tag": "warn",
-          "note": "28 min · full-week wrap (stocks, Fed, bonds, oil, gold) · small channel",
-          "episodes": [
-            {
-              "id": "rhz1L_dOdf0",
-              "label": "Weekly Market Week in Review (Nov 09–13, 2026)",
-              "len": "28:18"
-            }
-          ],
-          "find": "https://www.youtube.com/@USMarketNews24/search?query=Weekly%20Market%20Week%20in%20Review",
-          "find_label": "Find all episodes on the channel"
-        }
-      ],
-      "excluded": "Schwab Network (weekly-review items are articles; no recent weekly video found), Pisces Wealth (one 16 Oct post), and several tiny 'weekly recap' channels (ImBeneficial, TickForge, QuantSpring, TheMarketLantern) — too inconsistent to trust as standing sources."
+     "title": "Wall Street Week",
+     "channel": "Bloomberg Television",
+     "cadence": "weekly · Fridays",
+     "tag": "ok",
+     "note": "~56 min · long-form, guests + the week's themes · best source in this category",
+     "episodes": [
+      {
+       "id": "5jw4WtsMQqU",
+       "label": "Nvidia Shakeup, Midwest Stadium Bids… (13 Nov)",
+       "len": "56:37"
+      },
+      {
+       "id": "UACTCWikfLM",
+       "label": "Blue Wave Economic Impacts, European Welfare… (6 Nov)",
+       "len": "56:33"
+      },
+      {
+       "id": "k2QEU1awmxA",
+       "label": "Affordability, Data Center Divide, Debt… (~30 Oct)",
+       "len": "56:36"
+      },
+      {
+       "id": "mfGf-cTEERI",
+       "label": "America's Relationship Woes, Battery Pivot… (~16 Oct)",
+       "len": "56:39"
+      }
+     ],
+     "find": "https://www.youtube.com/@markets/search?query=Wall%20Street%20Week",
+     "find_label": "Find all episodes on the channel",
+     "handle": "@markets"
     },
     {
-      "id": "world",
-      "name": "2 · World News",
-      "shows": [
-        {
-          "title": "The World This Week",
-          "channel": "FRANCE 24 English",
-          "handle": "@France24_en",
-          "cadence": "weekly · Fridays · 40 episodes so far in 2026",
-          "tag": "ok",
-          "note": "~45–49 min · Paris panel (Gavin Lee) reviews the week's biggest international stories · official 2026 playlist confirmed, newest first",
-          "episodes": [
-            {
-              "id": "1vSTbVTSfSw",
-              "label": "The Downfall of AI's 'Rock Star' Boss, Ukraine: Who speaks for Europe? (14 Nov)",
-              "len": "45:02"
-            },
-            {
-              "id": null,
-              "label": "Midterms: A MAGA postmortem, Europe's 'shape-shifting' protests (7 Nov) — video ID still to capture",
-              "len": "47:04"
-            },
-            {
-              "id": "vZWw1hvtkus",
-              "label": "Halloween protests & French promises, US midterm mood… (31 Oct)",
-              "len": "46:18"
-            },
-            {
-              "id": "6aefvZfpgFc",
-              "label": "Trump vs Zelensky, From the screen to the streets, Gen Z… (17 Oct)",
-              "len": "48:53"
-            }
-          ],
-          "find": "https://www.youtube.com/playlist?list=PLCUKIeZnrIUmgNUHqQUnFtT1X8mxInDUc",
-          "find_label": "Official playlist: The World This Week (2026)"
-        },
-        {
-          "title": "Fareed Zakaria GPS — Full Episode Audio",
-          "channel": "CNN",
-          "handle": "@CNN",
-          "cadence": "weekly · Sundays",
-          "tag": "ok",
-          "tag2": "audio with a still image",
-          "note": "~37 min · global affairs analysis · the 15 Nov episode was not up yet at check time",
-          "episodes": [
-            {
-              "id": "l7BnnGbPP-8",
-              "label": "Full Episode Audio — Nov. 8",
-              "len": "38:32"
-            },
-            {
-              "id": "CuM-CLyYdM0",
-              "label": "Full Episode Audio — Nov. 1",
-              "len": "37:28"
-            },
-            {
-              "id": "wUF1lZZvPJ4",
-              "label": "Full Episode Audio — Oct. 25",
-              "len": "37:23"
-            },
-            {
-              "id": "H6ddslsUNCs",
-              "label": "Full Episode Audio — Oct. 18",
-              "len": "37:25"
-            }
-          ],
-          "find": "https://www.youtube.com/@CNN/search?query=Fareed%20Zakaria%20GPS%20Full%20Episode%20Audio",
-          "find_label": "Find all episodes on the channel"
-        }
-      ],
-      "excluded": "WION, DW News, Al Jazeera, Euronews — searched for a weekly recap show on each; only daily bulletins came back. World is the thinnest category: two solid weekly shows."
+     "title": "This Week in Review",
+     "channel": "Fisher Investments",
+     "handle": "@fisherinvestments",
+     "cadence": "weekly, with gaps",
+     "tag": "ok",
+     "note": "6–10 min · fast recap of markets, Fed, jobs, earnings · skipped some weeks in Oct",
+     "episodes": [
+      {
+       "id": "Zj1E7ZV0tdU",
+       "label": "Market Volatility, Q3 Earnings, US Inflation… (posted ~14 Nov)",
+       "len": "6:19"
+      },
+      {
+       "id": "FRumpi7-BcM",
+       "label": "Volatility, Midterm Elections, Central Banks, US Jobs (6 Nov)",
+       "len": "10:00"
+      },
+      {
+       "id": "qz6Ku3VttSw",
+       "label": "Bull Market Birthday, Q3 Earnings, US Inflation (16 Oct)",
+       "len": "8:15"
+      }
+     ],
+     "find": "https://www.youtube.com/@fisherinvestments/search?query=This%20Week%20in%20Review",
+     "find_label": "Find all episodes on the channel"
     },
     {
-      "id": "usa",
-      "name": "3 · USA News",
-      "shows": [
-        {
-          "title": "Washington Week with The Atlantic",
-          "channel": "PBS",
-          "handle": "@WashingtonWeekPBS",
-          "cadence": "weekly · Fridays",
-          "tag": "ok",
-          "note": "~27 min · reporters' round-table on the week in Washington · the closest thing to a straight weekly summary",
-          "episodes": [
-            {
-              "id": "aPaDJiiMNMM",
-              "label": "Full episode, Nov. 13",
-              "len": "26:46"
-            },
-            {
-              "id": "ic0MVVSk7mc",
-              "label": "Full episode, Nov. 6",
-              "len": "26:46"
-            }
-          ],
-          "find": "https://www.youtube.com/@WashingtonWeekPBS/search?query=Washington%20Week%20full%20episode",
-          "find_label": "Find all episodes on the channel"
-        },
-        {
-          "title": "Last Week's News Recap in Under 10 Minutes",
-          "channel": "Daily Brief Room",
-          "handle": "@dailybriefroom",
-          "cadence": "weekly",
-          "tag": "ok",
-          "tag2": "small channel — check quality",
-          "note": "~7 min · quick Mon–Sun recap",
-          "episodes": [
-            {
-              "id": "4UdAtEsv5qI",
-              "label": "Last Week's News Recap (8–14 Nov)",
-              "len": "7:22"
-            },
-            {
-              "id": "3xwedMWqr2Y",
-              "label": "Last Week's News Recap (1–7 Nov)",
-              "len": "7:09"
-            }
-          ],
-          "find": "https://www.youtube.com/@dailybriefroom/search?query=Last%20Week%27s%20News%20Recap",
-          "find_label": "Find all episodes on the channel"
-        },
-        {
-          "title": "This Week with George Stephanopoulos",
-          "channel": "ABC News",
-          "handle": "@ABCNews",
-          "cadence": "weekly · Sundays",
-          "tag": "ok",
-          "note": "~47 min · full broadcast · 15 Nov episode not up yet at check time",
-          "episodes": [
-            {
-              "id": "NuR4BYKxn2Q",
-              "label": "Full Broadcast — Sunday, Nov. 8",
-              "len": "46:58"
-            },
-            {
-              "id": "P8cCvQkPVKU",
-              "label": "Full Broadcast — Sunday, Nov. 1",
-              "len": "46:01"
-            },
-            {
-              "id": "x3snUc8_FWY",
-              "label": "Full Broadcast — Sunday, Oct. 25",
-              "len": "47:24"
-            }
-          ],
-          "find": "https://www.youtube.com/@ABCNews/search?query=This%20Week%20with%20George%20Stephanopoulos%20Full%20Broadcast",
-          "find_label": "Find all episodes on the channel"
-        },
-        {
-          "title": "Meet the Press Full Episode",
-          "channel": "NBC News",
-          "cadence": "weekly · Sundays",
-          "tag": "ok",
-          "note": "~48 min",
-          "episodes": [
-            {
-              "id": "E4QNLdteB2c",
-              "label": "Full Episode — Nov. 8",
-              "len": "47:48"
-            },
-            {
-              "id": "juwdRq-O9o4",
-              "label": "Full Episode — November 1",
-              "len": "47:47"
-            }
-          ],
-          "find": "https://www.youtube.com/@NBCNews/search?query=Meet%20the%20Press%20Full%20Episode",
-          "find_label": "Find all episodes on the channel",
-          "handle": "@NBCNews"
-        }
-      ],
-      "excluded": "Last Week Tonight (weekly but one satirical deep-dive, not a recap), The Weekly Show with Jon Stewart (weekly interviews), Tangle News (analysis, not a weekly recap), PBS NewsHour (daily), MS NOW 'Weekly Highlights' (single-viewpoint)."
-    },
-    {
-      "id": "india",
-      "name": "4 · India News",
-      "shows": [
-        {
-          "title": "Weekly Roundup | Current Affairs",
-          "channel": "Vision IAS",
-          "handle": "@VisionIASdelhi",
-          "cadence": "weekly · every week since at least May",
-          "tag": "ok",
-          "note": "~1 h 10 min · English · very complete national + international coverage · UPSC-exam style, so detailed and explanatory",
-          "episodes": [
-            {
-              "id": "LZYeEm2rkio",
-              "label": "Weekly Roundup, 8–14 Nov 2026",
-              "len": "1:09:17"
-            },
-            {
-              "id": "ia4l7WFu2Kc",
-              "label": "Weekly Roundup, 1–7 Nov 2026",
-              "len": "1:06:27"
-            },
-            {
-              "id": "GzOsPP-f51A",
-              "label": "Weekly Roundup, 25–31 Oct 2026",
-              "len": "1:12:33"
-            }
-          ],
-          "find": "https://www.youtube.com/@VisionIASdelhi/search?query=Weekly%20Roundup",
-          "find_label": "Find all episodes on the channel"
-        },
-        {
-          "title": "PIB Weekly Current Affairs",
-          "channel": "Drishti IAS (English)",
-          "cadence": "weekly",
-          "tag": "ok",
-          "note": "~30 min · government-announcements angle (schemes, policy) · Drishti's own site says one new video every week",
-          "episodes": [
-            {
-              "id": "eXumKBdZqVc",
-              "label": "PIB Weekly Current Affairs, 8–14 Nov 2026",
-              "len": "30:27"
-            }
-          ],
-          "find": "https://www.youtube.com/results?search_query=Drishti+IAS+English+PIB+Weekly+Current+Affairs",
-          "find_label": "Find all episodes (YouTube search)"
-        },
-        {
-          "title": "TV Newsance",
-          "channel": "Newslaundry",
-          "handle": "@newslaundry",
-          "cadence": "weekly",
-          "tag": "ok",
-          "tag2": "media-critique angle",
-          "note": "~22 min · what Indian TV news covered this week, with commentary — not a neutral recap",
-          "episodes": [
-            {
-              "id": "DHqEojn8aqA",
-              "label": "TV Newsance — latest episode (posted ~14 Nov)",
-              "len": "22:11"
-            }
-          ],
-          "find": "https://www.youtube.com/@newslaundry/search?query=TV%20Newsance",
-          "find_label": "Find all episodes on the channel"
-        },
-        {
-          "title": "UPSC Weekly Newspaper Roundup",
-          "channel": "Insights IAS",
-          "handle": "@Insights_IAS",
-          "cadence": "latest seen is 11 days old",
-          "tag": "warn",
-          "secondary": true,
-          "note": "~17 min",
-          "episodes": [
-            {
-              "id": "i0ro9rVL3QM",
-              "label": "Week-1 (25 Oct–2 Nov 2026)",
-              "len": "17:41"
-            }
-          ]
-        },
-        {
-          "title": "Top Current Affairs 8–14 Nov",
-          "channel": "MADE EASY",
-          "cadence": "cadence unverified",
-          "tag": "warn",
-          "secondary": true,
-          "note": "~29 min",
-          "episodes": [
-            {
-              "id": "7wtLaUEG1YY",
-              "label": "Top Current Affairs, 8–14 Nov 2026",
-              "len": "29:09"
-            }
-          ]
-        },
-        {
-          "title": "Editors Discuss The Week Gone By & Road Ahead",
-          "channel": "CNBC-TV18",
-          "cadence": "cadence unverified",
-          "tag": "warn",
-          "secondary": true,
-          "note": "~26 min · business/markets angle",
-          "episodes": [
-            {
-              "id": "qYNywkIFXuo",
-              "label": "The Week Gone By & Road Ahead (streamed ~14 Nov)",
-              "len": "25:36"
-            }
-          ]
-        }
-      ],
-      "excluded": "'Week In Reel' (Jaano Junction) and 'The India Report' (Newsreel Asia) appeared in web articles but not in YouTube search — treated as unverified. ISH News does a weekly roundup in Indian Sign Language (video dZ6euh72G5I) if that is useful."
-    },
-    {
-      "id": "sports",
-      "name": "5 · Sports News",
-      "intro": "No single channel does a good all-sports weekly recap, so this category is built sport by sport.",
-      "shows": [
-        {
-          "title": "Every Single Game Recap from Sunday Afternoon",
-          "channel": "NFL",
-          "handle": "@NFL",
-          "cadence": "weekly in season",
-          "tag": "ok",
-          "note": "3 h 07 min · full game-by-game recap · Week 10 recap not out yet (games just finished)",
-          "episodes": [
-            {
-              "id": "PbZOEMpiT0w",
-              "label": "Week 9 — Every Single Game Recap",
-              "len": "3:07:11"
-            },
-            {
-              "id": "LwgF8lTM5xM",
-              "label": "Week 9 — Recap of EVERY Game (Rosenthal, Rodrigue, Shook)",
-              "len": ""
-            },
-            {
-              "id": "GtvrxVnK2zI",
-              "label": "NFL on NBC — Week 9 Recap",
-              "len": "1:27:26"
-            }
-          ],
-          "find": "https://www.youtube.com/@NFL/search?query=Every%20Single%20Game%20Recap",
-          "find_label": "Find all episodes on the channel"
-        },
-        {
-          "title": "Premier League Review",
-          "channel": "NBC Sports",
-          "cadence": "weekly",
-          "tag": "ok",
-          "note": "~52 min",
-          "episodes": [
-            {
-              "id": "zjL3wR2wv7g",
-              "label": "Premier League Review: Matchweek 10 (2026-27)",
-              "len": "51:38"
-            }
-          ],
-          "find": "https://www.youtube.com/results?search_query=NBC+Sports+Premier+League+Review+Matchweek",
-          "find_label": "Find all episodes (YouTube search)"
-        },
-        {
-          "title": "Formula 1 post-race show",
-          "channel": "FORMULA 1",
-          "handle": "@Formula1",
-          "cadence": "to verify",
-          "tag": "warn",
-          "note": "55 min · after each race weekend",
-          "episodes": [
-            {
-              "id": "bdNF-he0RcE",
-              "label": "'Unflappable' Norris Wins + Mercedes Are Champions!",
-              "len": "55:30"
-            }
-          ]
-        },
-        {
-          "title": "WeeklyPedia (cricket)",
-          "channel": "Cricotainment",
-          "cadence": "weekly (Ep 96)",
-          "tag": "ok",
-          "tag2": "small channel",
-          "note": "~39 min · Indian-cricket-centred weekly roundup",
-          "episodes": [
-            {
-              "id": "fuR1DwHDGWs",
-              "label": "WeeklyPedia Ep 96 (12 Nov)",
-              "len": "39:11"
-            }
-          ],
-          "find": "https://www.youtube.com/results?search_query=Cricotainment+WeeklyPedia",
-          "find_label": "Find all episodes (YouTube search)"
-        }
-      ],
-      "excluded": "NBA's Nightly Recap (daily, not weekly); EDIDAS TV 'Week 2 in Review' (NBA — unverified); generic 'Sports Weekly' / 'Sports Round Up' channels (weak signals)."
-    },
-    {
-      "id": "tech",
-      "name": "6 · Tech News",
-      "shows": [
-        {
-          "title": "Tech News Weekly",
-          "channel": "TWiT",
-          "handle": "@TechNewsWeeklyPodcast",
-          "cadence": "weekly · Thursdays",
-          "tag": "ok",
-          "note": "~1 h 15 min · the most digestible of the three · latest episode only captured so far",
-          "episodes": [
-            {
-              "id": "hgsnS4l-lMU",
-              "label": "Spies, Affairs, Jensen Huang's Nvidia Exit (~12 Nov)",
-              "len": "1:15:56"
-            }
-          ],
-          "find": "https://www.youtube.com/@TechNewsWeeklyPodcast/videos",
-          "find_label": "All episodes on the channel"
-        },
-        {
-          "title": "This Week in Tech",
-          "channel": "TWiT",
-          "handle": "@ThisWeekinTech",
-          "cadence": "weekly · Sundays",
-          "tag": "ok",
-          "note": "2.5–3.5 h · panel discussion of the week in tech · the 15 Nov live show just ended",
-          "episodes": [
-            {
-              "id": "aXJZ8oXtu1s",
-              "label": "High-End Electronic Drumkits - Air Traffic Control & Mi… (15 Nov, live)",
-              "len": "2:47:19"
-            },
-            {
-              "id": "8V-wEHka3AU",
-              "label": "Looks Like a Fish, Steers Like a Cow - The Voter Tsunami… (~9 Nov)",
-              "len": "3:28:31"
-            },
-            {
-              "id": "CUv64b98wN0",
-              "label": "Bad AI Vibes - Why Tech Leaders Miss the Mark on AI's R… (~2 Nov)",
-              "len": "2:44:07"
-            },
-            {
-              "id": "kNehweKeu80",
-              "label": "Spicy Hinges - Apple's 1st Foldable, GM Forward 2026… (~26 Oct)",
-              "len": "2:44:05"
-            }
-          ],
-          "find": "https://www.youtube.com/@ThisWeekinTech/videos",
-          "find_label": "All episodes on the channel"
-        },
-        {
-          "title": "WAN Show",
-          "channel": "Linus Tech Tips",
-          "handle": "@WANShowYT",
-          "cadence": "weekly · Fridays",
-          "tag": "ok",
-          "tag2": "3–4 h live stream",
-          "note": "tech news roundup + chat · five weeks in a row confirmed",
-          "episodes": [
-            {
-              "id": "-FTdaQT6P9w",
-              "label": "NVIDIA CEO's Leadership Ends with a Bang! (13 Nov)",
-              "len": "4:15:22"
-            },
-            {
-              "id": "VxWBurzaVMs",
-              "label": "AI Datacenters Lost The US Election (6 Nov)",
-              "len": "3:26:13"
-            },
-            {
-              "id": "z7rgGfE8sug",
-              "label": "AI Is Bursting (30 Oct)",
-              "len": "3:12:50"
-            },
-            {
-              "id": "yIcNy60mcAg",
-              "label": "Most Of The Internet Needs To Be Fixed (23 Oct)",
-              "len": "2:45:15"
-            }
-          ],
-          "find": "https://www.youtube.com/@WANShowYT/videos",
-          "find_label": "All episodes on the channel"
-        }
-      ],
-      "excluded": "The Vergecast (last video 3 weeks ago) and Waveform (4 weeks ago) — not dependable weekly sources on YouTube right now."
-    },
-    {
-      "id": "coding",
-      "name": "7 · Coding News (Java / Python / new paradigms)",
-      "shows": [
-        {
-          "title": "Python Bytes",
-          "channel": "Python Bytes Podcast",
-          "handle": "@PythonBytes",
-          "cadence": "weekly · Mondays",
-          "tag": "ok",
-          "note": "~35 min · Python news and tools · Ep. 501–504 consecutive across four weeks",
-          "episodes": [
-            {
-              "id": "rPczSyhinpc",
-              "label": "Ep. 504 — Who turned the GIL back on? (~10 Nov)",
-              "len": "33:50"
-            },
-            {
-              "id": "o63T94KiWng",
-              "label": "Ep. 503 — It's not 85% HTML (~3 Nov)",
-              "len": "34:04"
-            },
-            {
-              "id": "V7m5MAhp4qE",
-              "label": "Ep. 502 — Introducing chameleon-rs (~27 Oct)",
-              "len": "37:41"
-            },
-            {
-              "id": "TGDze5W1EZ8",
-              "label": "Ep. 501 — A Nod to Sir-Mix-Alot (~20 Oct)",
-              "len": "43:56"
-            }
-          ],
-          "find": "https://www.youtube.com/@PythonBytes/videos",
-          "find_label": "All episodes on the channel"
-        },
-        {
-          "title": "Spring Boot & Java roundup (numbered 'W##')",
-          "channel": "Spring Universe",
-          "handle": "@SpringUniverse",
-          "cadence": "~weekly (W45 latest; one week appears skipped)",
-          "tag": "ok",
-          "tag2": "small channel",
-          "note": "6–10 min · Spring Boot / JDK / Java-ecosystem news of the week · the only weekly Java-side show found",
-          "episodes": [
-            {
-              "id": "mXlChNpxj_M",
-              "label": "Spring Boot 4.2 RC2, HTTP QUERY, RestTemplate Deprecated | W45 (~10 Nov)",
-              "len": "6:38"
-            },
-            {
-              "id": "NCTEPi415CQ",
-              "label": "Java Trust Store Alert, Spring Boot 4.2 RC1, JDK 28 AOT Code… (~2 Nov)",
-              "len": "10:14"
-            }
-          ],
-          "find": "https://www.youtube.com/@SpringUniverse/videos",
-          "find_label": "All videos on the channel"
-        },
-        {
-          "title": "Inside Java Newscast",
-          "channel": "Java (Oracle)",
-          "handle": "@java",
-          "cadence": "roughly monthly — not weekly",
-          "tag": "warn",
-          "secondary": true,
-          "note": "8 min · official Java news · latest is 4 weeks old",
-          "episodes": [
-            {
-              "id": "tn2lsyvzMvE",
-              "label": "OpenJDK Bug Fixing + JavaOne + JDK 28 (~16 Oct)",
-              "len": "8:13"
-            }
-          ],
-          "find": "https://www.youtube.com/@java/search?query=Inside%20Java%20Newscast",
-          "find_label": "Find all episodes on the channel"
-        },
-        {
-          "title": "Fireship — short coding/AI news videos",
-          "channel": "Fireship",
-          "handle": "@Fireship",
-          "cadence": "2–3 per week — not a weekly recap",
-          "tag": "warn",
-          "secondary": true,
-          "note": "5–6 min each · fastest way to catch the week's biggest dev + AI stories",
-          "episodes": [
-            {
-              "id": "SOwUWPtXQ9I",
-              "label": "Jensen Huang just pulled out of Nvidia… (~13 Nov)",
-              "len": "5:36"
-            },
-            {
-              "id": "1FurWDiK9A4",
-              "label": "Did Anthropic just save its $1 trillion IPO? (~11 Nov)",
-              "len": "5:34"
-            },
-            {
-              "id": "pf5tXJZM1Rw",
-              "label": "OpenAI spent $1.2 million hacking Linux… (~10 Nov)",
-              "len": "6:30"
-            },
-            {
-              "id": "iw9SZgyahqg",
-              "label": "The one thing holding theoretical CS together just broke (~7 Nov)",
-              "len": "6:01"
-            }
-          ],
-          "find": "https://www.youtube.com/@Fireship/videos",
-          "find_label": "All videos on the channel"
-        }
-      ],
-      "excluded": "Changelog News (not on YouTube in the last month). No weekly show found for new paradigms (Rust, agentic coding…) — Fireship is the closest, but it is 2–3 bite-size videos a week, not a recap."
-    },
-    {
-      "id": "ai",
-      "name": "8 · AI News",
-      "shows": [
-        {
-          "title": "AI News (weekly)",
-          "channel": "Matt Wolfe",
-          "handle": "@mreflow",
-          "cadence": "weekly · Fri/Sat",
-          "tag": "ok",
-          "note": "~25–31 min · the week's AI releases and stories, titled 'AI News: …' · five weeks in a row confirmed",
-          "episodes": [
-            {
-              "id": "G_Jrexy_5Bg",
-              "label": "AI News: Things Will Never Be The Same (~14 Nov)",
-              "len": "27:11"
-            },
-            {
-              "id": "IrAHINf0M6E",
-              "label": "AI News: New ChatGPT & Google Models (14 Updates Worth…) (~7 Nov)",
-              "len": "24:44"
-            },
-            {
-              "id": "eDiQNFa-zYg",
-              "label": "AI News: The Only 6 Stories Worth Knowing This Week (~31 Oct)",
-              "len": "29:21"
-            },
-            {
-              "id": "TVRCcMlvR10",
-              "label": "AI News: 24 Things You Need To Know This Week (~24 Oct)",
-              "len": "26:58"
-            },
-            {
-              "id": "KGcuuhqmPhI",
-              "label": "AI News: 6 New Models & A Nano Banana Killer (~17 Oct)",
-              "len": "31:08"
-            }
-          ],
-          "find": "https://www.youtube.com/@mreflow/search?query=%22AI%20News%22",
-          "find_label": "Find all episodes on the channel"
-        },
-        {
-          "title": "Hard Fork",
-          "channel": "The New York Times",
-          "cadence": "weekly · Fridays (+ some mid-week specials)",
-          "tag": "ok",
-          "tag2": "also covers wider tech",
-          "note": "~35–65 min · AI and tech-industry news of the week, with commentary",
-          "episodes": [
-            {
-              "id": "W79ML7zFyZg",
-              "label": "Inside the Downfall of the Most Powerful Man in A.I. (~13 Nov)",
-              "len": "37:33"
-            },
-            {
-              "id": "f1lBUs3suWM",
-              "label": "Why Tech Billionaires Couldn't Buy the 2026 Election (~7 Nov)",
-              "len": "1:07:13"
-            },
-            {
-              "id": "EGC7jht_mis",
-              "label": "What We Learned About Anthropic's Business (~31 Oct)",
-              "len": "52:54"
-            }
-          ],
-          "find": "https://www.youtube.com/results?search_query=Hard+Fork+New+York+Times+podcast",
-          "find_label": "Find all episodes (YouTube search)"
-        },
-        {
-          "title": "Weekly AI News Summary",
-          "channel": "AIPOD-CAST",
-          "handle": "@AIPOD-CAST",
-          "cadence": "weekly (Ep 231)",
-          "tag": "ok",
-          "tag2": "small channel",
-          "secondary": true,
-          "note": "~6 min · very short weekly summary",
-          "episodes": [
-            {
-              "id": "cJ9TgjMHC-A",
-              "label": "Episode 231: Weekly AI News Summary - 8 November 2026",
-              "len": "5:47"
-            }
-          ]
-        }
-      ],
-      "excluded": "The AI Advantage (only one recent video, no weekly-news format) and daily AI channels (AI News Daily, AI Daily Brief) — not weekly. Still hoping for one more deeper-analysis weekly."
+     "title": "Weekly Market Week in Review",
+     "channel": "USMarketNews24",
+     "handle": "@USMarketNews24",
+     "cadence": "cadence not fully verified",
+     "tag": "warn",
+     "note": "28 min · full-week wrap (stocks, Fed, bonds, oil, gold) · small channel",
+     "episodes": [
+      {
+       "id": "rhz1L_dOdf0",
+       "label": "Weekly Market Week in Review (Nov 09–13, 2026)",
+       "len": "28:18"
+      }
+     ],
+     "find": "https://www.youtube.com/@USMarketNews24/search?query=Weekly%20Market%20Week%20in%20Review",
+     "find_label": "Find all episodes on the channel"
     }
-  ]
+   ],
+   "excluded": "Schwab Network (weekly-review items are articles; no recent weekly video found), Pisces Wealth (one 16 Oct post), and several tiny 'weekly recap' channels (ImBeneficial, TickForge, QuantSpring, TheMarketLantern) — too inconsistent to trust as standing sources.",
+   "playlist": {
+    "name": "Weekly News - Finance",
+    "videos": 5
+   }
+  },
+  {
+   "id": "world",
+   "name": "2 · World News",
+   "shows": [
+    {
+     "title": "The World This Week",
+     "channel": "FRANCE 24 English",
+     "handle": "@France24_en",
+     "cadence": "weekly · Fridays · 40 episodes so far in 2026",
+     "tag": "ok",
+     "note": "~45–49 min · Paris panel (Gavin Lee) reviews the week's biggest international stories · official 2026 playlist confirmed, newest first",
+     "episodes": [
+      {
+       "id": "1vSTbVTSfSw",
+       "label": "The Downfall of AI's 'Rock Star' Boss, Ukraine: Who speaks for Europe? (14 Nov)",
+       "len": "45:02"
+      },
+      {
+       "id": "11w2O7gG6m0",
+       "label": "Midterms: A MAGA postmortem, Europe's 'shape-shifting' protests (7 Nov)",
+       "len": "47:04"
+      },
+      {
+       "id": "vZWw1hvtkus",
+       "label": "Halloween protests & French promises, US midterm mood… (31 Oct)",
+       "len": "46:18"
+      },
+      {
+       "id": "6aefvZfpgFc",
+       "label": "Trump vs Zelensky, From the screen to the streets, Gen Z… (17 Oct)",
+       "len": "48:53"
+      }
+     ],
+     "find": "https://www.youtube.com/playlist?list=PLCUKIeZnrIUmgNUHqQUnFtT1X8mxInDUc",
+     "find_label": "Official playlist: The World This Week (2026)"
+    },
+    {
+     "title": "Fareed Zakaria GPS — Full Episode Audio",
+     "channel": "CNN",
+     "handle": "@CNN",
+     "cadence": "weekly · Sundays",
+     "tag": "ok",
+     "tag2": "audio with a still image",
+     "note": "~37 min · global affairs analysis · the 15 Nov episode was not up yet at check time",
+     "episodes": [
+      {
+       "id": "l7BnnGbPP-8",
+       "label": "Full Episode Audio — Nov. 8",
+       "len": "38:32"
+      },
+      {
+       "id": "CuM-CLyYdM0",
+       "label": "Full Episode Audio — Nov. 1",
+       "len": "37:28"
+      },
+      {
+       "id": "wUF1lZZvPJ4",
+       "label": "Full Episode Audio — Oct. 25",
+       "len": "37:23"
+      },
+      {
+       "id": "H6ddslsUNCs",
+       "label": "Full Episode Audio — Oct. 18",
+       "len": "37:25"
+      }
+     ],
+     "find": "https://www.youtube.com/@CNN/search?query=Fareed%20Zakaria%20GPS%20Full%20Episode%20Audio",
+     "find_label": "Find all episodes on the channel"
+    }
+   ],
+   "excluded": "WION, DW News, Al Jazeera, Euronews — searched for a weekly recap show on each; only daily bulletins came back. World is the thinnest category: two solid weekly shows.",
+   "playlist": {
+    "name": "Weekly News - World",
+    "videos": 5
+   }
+  },
+  {
+   "id": "usa",
+   "name": "3 · USA News",
+   "shows": [
+    {
+     "title": "Washington Week with The Atlantic",
+     "channel": "PBS",
+     "handle": "@WashingtonWeekPBS",
+     "cadence": "weekly · Fridays",
+     "tag": "ok",
+     "note": "~27 min · reporters' round-table on the week in Washington · the closest thing to a straight weekly summary",
+     "episodes": [
+      {
+       "id": "aPaDJiiMNMM",
+       "label": "Full episode, Nov. 13",
+       "len": "26:46"
+      },
+      {
+       "id": "ic0MVVSk7mc",
+       "label": "Full episode, Nov. 6",
+       "len": "26:46"
+      }
+     ],
+     "find": "https://www.youtube.com/@WashingtonWeekPBS/search?query=Washington%20Week%20full%20episode",
+     "find_label": "Find all episodes on the channel"
+    },
+    {
+     "title": "Last Week's News Recap in Under 10 Minutes",
+     "channel": "Daily Brief Room",
+     "handle": "@dailybriefroom",
+     "cadence": "weekly",
+     "tag": "ok",
+     "tag2": "small channel — check quality",
+     "note": "~7 min · quick Mon–Sun recap",
+     "episodes": [
+      {
+       "id": "4UdAtEsv5qI",
+       "label": "Last Week's News Recap (8–14 Nov)",
+       "len": "7:22"
+      },
+      {
+       "id": "3xwedMWqr2Y",
+       "label": "Last Week's News Recap (1–7 Nov)",
+       "len": "7:09"
+      }
+     ],
+     "find": "https://www.youtube.com/@dailybriefroom/search?query=Last%20Week%27s%20News%20Recap",
+     "find_label": "Find all episodes on the channel"
+    },
+    {
+     "title": "This Week with George Stephanopoulos",
+     "channel": "ABC News",
+     "handle": "@ABCNews",
+     "cadence": "weekly · Sundays",
+     "tag": "ok",
+     "note": "~47 min · full broadcast · 15 Nov episode not up yet at check time",
+     "episodes": [
+      {
+       "id": "NuR4BYKxn2Q",
+       "label": "Full Broadcast — Sunday, Nov. 8",
+       "len": "46:58"
+      },
+      {
+       "id": "P8cCvQkPVKU",
+       "label": "Full Broadcast — Sunday, Nov. 1",
+       "len": "46:01"
+      },
+      {
+       "id": "x3snUc8_FWY",
+       "label": "Full Broadcast — Sunday, Oct. 25",
+       "len": "47:24"
+      }
+     ],
+     "find": "https://www.youtube.com/@ABCNews/search?query=This%20Week%20with%20George%20Stephanopoulos%20Full%20Broadcast",
+     "find_label": "Find all episodes on the channel"
+    },
+    {
+     "title": "Meet the Press Full Episode",
+     "channel": "NBC News",
+     "cadence": "weekly · Sundays",
+     "tag": "ok",
+     "note": "~48 min",
+     "episodes": [
+      {
+       "id": "E4QNLdteB2c",
+       "label": "Full Episode — Nov. 8",
+       "len": "47:48"
+      },
+      {
+       "id": "juwdRq-O9o4",
+       "label": "Full Episode — November 1",
+       "len": "47:47"
+      }
+     ],
+     "find": "https://www.youtube.com/@NBCNews/search?query=Meet%20the%20Press%20Full%20Episode",
+     "find_label": "Find all episodes on the channel",
+     "handle": "@NBCNews"
+    }
+   ],
+   "excluded": "Last Week Tonight (weekly but one satirical deep-dive, not a recap), The Weekly Show with Jon Stewart (weekly interviews), Tangle News (analysis, not a weekly recap), PBS NewsHour (daily), MS NOW 'Weekly Highlights' (single-viewpoint).",
+   "playlist": {
+    "name": "Weekly News - USA",
+    "videos": 6
+   }
+  },
+  {
+   "id": "india",
+   "name": "4 · India News",
+   "shows": [
+    {
+     "title": "Weekly Roundup | Current Affairs",
+     "channel": "Vision IAS",
+     "handle": "@VisionIASdelhi",
+     "cadence": "weekly · every week since at least May",
+     "tag": "ok",
+     "note": "~1 h 10 min · English · very complete national + international coverage · UPSC-exam style, so detailed and explanatory",
+     "episodes": [
+      {
+       "id": "LZYeEm2rkio",
+       "label": "Weekly Roundup, 8–14 Nov 2026",
+       "len": "1:09:17"
+      },
+      {
+       "id": "ia4l7WFu2Kc",
+       "label": "Weekly Roundup, 1–7 Nov 2026",
+       "len": "1:06:27"
+      },
+      {
+       "id": "GzOsPP-f51A",
+       "label": "Weekly Roundup, 25–31 Oct 2026",
+       "len": "1:12:33"
+      }
+     ],
+     "find": "https://www.youtube.com/@VisionIASdelhi/search?query=Weekly%20Roundup",
+     "find_label": "Find all episodes on the channel"
+    },
+    {
+     "title": "PIB Weekly Current Affairs",
+     "channel": "Drishti IAS (English)",
+     "cadence": "weekly",
+     "tag": "ok",
+     "note": "~30 min · government-announcements angle (schemes, policy) · Drishti's own site says one new video every week",
+     "episodes": [
+      {
+       "id": "eXumKBdZqVc",
+       "label": "PIB Weekly Current Affairs, 8–14 Nov 2026",
+       "len": "30:27"
+      }
+     ],
+     "find": "https://www.youtube.com/results?search_query=Drishti+IAS+English+PIB+Weekly+Current+Affairs",
+     "find_label": "Find all episodes (YouTube search)"
+    },
+    {
+     "title": "TV Newsance",
+     "channel": "Newslaundry",
+     "handle": "@newslaundry",
+     "cadence": "weekly",
+     "tag": "ok",
+     "tag2": "media-critique angle",
+     "note": "~22 min · what Indian TV news covered this week, with commentary — not a neutral recap",
+     "episodes": [
+      {
+       "id": "DHqEojn8aqA",
+       "label": "TV Newsance — latest episode (posted ~14 Nov)",
+       "len": "22:11"
+      }
+     ],
+     "find": "https://www.youtube.com/@newslaundry/search?query=TV%20Newsance",
+     "find_label": "Find all episodes on the channel"
+    },
+    {
+     "title": "UPSC Weekly Newspaper Roundup",
+     "channel": "Insights IAS",
+     "handle": "@Insights_IAS",
+     "cadence": "latest seen is 11 days old",
+     "tag": "warn",
+     "secondary": true,
+     "note": "~17 min",
+     "episodes": [
+      {
+       "id": "i0ro9rVL3QM",
+       "label": "Week-1 (25 Oct–2 Nov 2026)",
+       "len": "17:41"
+      }
+     ]
+    },
+    {
+     "title": "Top Current Affairs 8–14 Nov",
+     "channel": "MADE EASY",
+     "cadence": "cadence unverified",
+     "tag": "warn",
+     "secondary": true,
+     "note": "~29 min",
+     "episodes": [
+      {
+       "id": "7wtLaUEG1YY",
+       "label": "Top Current Affairs, 8–14 Nov 2026",
+       "len": "29:09"
+      }
+     ]
+    },
+    {
+     "title": "Editors Discuss The Week Gone By & Road Ahead",
+     "channel": "CNBC-TV18",
+     "cadence": "cadence unverified",
+     "tag": "warn",
+     "secondary": true,
+     "note": "~26 min · business/markets angle",
+     "episodes": [
+      {
+       "id": "qYNywkIFXuo",
+       "label": "The Week Gone By & Road Ahead (streamed ~14 Nov)",
+       "len": "25:36"
+      }
+     ]
+    }
+   ],
+   "excluded": "'Week In Reel' (Jaano Junction) and 'The India Report' (Newsreel Asia) appeared in web articles but not in YouTube search — treated as unverified. ISH News does a weekly roundup in Indian Sign Language (video dZ6euh72G5I) if that is useful.",
+   "playlist": {
+    "name": "Weekly News - India",
+    "videos": 5
+   }
+  },
+  {
+   "id": "sports",
+   "name": "5 · Sports News",
+   "intro": "No single channel does a good all-sports weekly recap, so this category is built sport by sport.",
+   "shows": [
+    {
+     "title": "Every Single Game Recap from Sunday Afternoon",
+     "channel": "NFL",
+     "handle": "@NFL",
+     "cadence": "weekly in season",
+     "tag": "ok",
+     "note": "3 h 07 min · full game-by-game recap · Week 10 recap not out yet (games just finished)",
+     "episodes": [
+      {
+       "id": "PbZOEMpiT0w",
+       "label": "Week 9 — Every Single Game Recap",
+       "len": "3:07:11"
+      },
+      {
+       "id": "LwgF8lTM5xM",
+       "label": "Week 9 — Recap of EVERY Game (Rosenthal, Rodrigue, Shook)",
+       "len": ""
+      },
+      {
+       "id": "GtvrxVnK2zI",
+       "label": "NFL on NBC — Week 9 Recap",
+       "len": "1:27:26"
+      }
+     ],
+     "find": "https://www.youtube.com/@NFL/search?query=Every%20Single%20Game%20Recap",
+     "find_label": "Find all episodes on the channel"
+    },
+    {
+     "title": "Premier League Review",
+     "channel": "NBC Sports",
+     "cadence": "weekly",
+     "tag": "ok",
+     "note": "~52 min",
+     "episodes": [
+      {
+       "id": "zjL3wR2wv7g",
+       "label": "Premier League Review: Matchweek 10 (2026-27)",
+       "len": "51:38"
+      }
+     ],
+     "find": "https://www.youtube.com/results?search_query=NBC+Sports+Premier+League+Review+Matchweek",
+     "find_label": "Find all episodes (YouTube search)"
+    },
+    {
+     "title": "Formula 1 post-race show",
+     "channel": "FORMULA 1",
+     "handle": "@Formula1",
+     "cadence": "to verify",
+     "tag": "warn",
+     "note": "55 min · after each race weekend",
+     "episodes": [
+      {
+       "id": "bdNF-he0RcE",
+       "label": "'Unflappable' Norris Wins + Mercedes Are Champions!",
+       "len": "55:30"
+      }
+     ]
+    },
+    {
+     "title": "WeeklyPedia (cricket)",
+     "channel": "Cricotainment",
+     "cadence": "weekly (Ep 96)",
+     "tag": "ok",
+     "tag2": "small channel",
+     "note": "~39 min · Indian-cricket-centred weekly roundup",
+     "episodes": [
+      {
+       "id": "fuR1DwHDGWs",
+       "label": "WeeklyPedia Ep 96 (12 Nov)",
+       "len": "39:11"
+      }
+     ],
+     "find": "https://www.youtube.com/results?search_query=Cricotainment+WeeklyPedia",
+     "find_label": "Find all episodes (YouTube search)"
+    }
+   ],
+   "excluded": "NBA's Nightly Recap (daily, not weekly); EDIDAS TV 'Week 2 in Review' (NBA — unverified); generic 'Sports Weekly' / 'Sports Round Up' channels (weak signals)."
+  },
+  {
+   "id": "tech",
+   "name": "6 · Tech News",
+   "shows": [
+    {
+     "title": "Tech News Weekly",
+     "channel": "TWiT",
+     "handle": "@TechNewsWeeklyPodcast",
+     "cadence": "weekly · Thursdays",
+     "tag": "ok",
+     "note": "~1 h 15 min · the most digestible of the three · latest episode only captured so far",
+     "episodes": [
+      {
+       "id": "hgsnS4l-lMU",
+       "label": "Spies, Affairs, Jensen Huang's Nvidia Exit (~12 Nov)",
+       "len": "1:15:56"
+      }
+     ],
+     "find": "https://www.youtube.com/@TechNewsWeeklyPodcast/videos",
+     "find_label": "All episodes on the channel"
+    },
+    {
+     "title": "This Week in Tech",
+     "channel": "TWiT",
+     "handle": "@ThisWeekinTech",
+     "cadence": "weekly · Sundays",
+     "tag": "ok",
+     "note": "2.5–3.5 h · panel discussion of the week in tech · the 15 Nov live show just ended",
+     "episodes": [
+      {
+       "id": "aXJZ8oXtu1s",
+       "label": "High-End Electronic Drumkits - Air Traffic Control & Mi… (15 Nov, live)",
+       "len": "2:47:19"
+      },
+      {
+       "id": "8V-wEHka3AU",
+       "label": "Looks Like a Fish, Steers Like a Cow - The Voter Tsunami… (~9 Nov)",
+       "len": "3:28:31"
+      },
+      {
+       "id": "CUv64b98wN0",
+       "label": "Bad AI Vibes - Why Tech Leaders Miss the Mark on AI's R… (~2 Nov)",
+       "len": "2:44:07"
+      },
+      {
+       "id": "kNehweKeu80",
+       "label": "Spicy Hinges - Apple's 1st Foldable, GM Forward 2026… (~26 Oct)",
+       "len": "2:44:05"
+      }
+     ],
+     "find": "https://www.youtube.com/@ThisWeekinTech/videos",
+     "find_label": "All episodes on the channel"
+    },
+    {
+     "title": "WAN Show",
+     "channel": "Linus Tech Tips",
+     "handle": "@WANShowYT",
+     "cadence": "weekly · Fridays",
+     "tag": "ok",
+     "tag2": "3–4 h live stream",
+     "note": "tech news roundup + chat · five weeks in a row confirmed",
+     "episodes": [
+      {
+       "id": "-FTdaQT6P9w",
+       "label": "NVIDIA CEO's Leadership Ends with a Bang! (13 Nov)",
+       "len": "4:15:22"
+      },
+      {
+       "id": "VxWBurzaVMs",
+       "label": "AI Datacenters Lost The US Election (6 Nov)",
+       "len": "3:26:13"
+      },
+      {
+       "id": "z7rgGfE8sug",
+       "label": "AI Is Bursting (30 Oct)",
+       "len": "3:12:50"
+      },
+      {
+       "id": "yIcNy60mcAg",
+       "label": "Most Of The Internet Needs To Be Fixed (23 Oct)",
+       "len": "2:45:15"
+      }
+     ],
+     "find": "https://www.youtube.com/@WANShowYT/videos",
+     "find_label": "All episodes on the channel"
+    }
+   ],
+   "excluded": "The Vergecast (last video 3 weeks ago) and Waveform (4 weeks ago) — not dependable weekly sources on YouTube right now."
+  },
+  {
+   "id": "coding",
+   "name": "7 · Coding News (Java / Python / new paradigms)",
+   "shows": [
+    {
+     "title": "Python Bytes",
+     "channel": "Python Bytes Podcast",
+     "handle": "@PythonBytes",
+     "cadence": "weekly · Mondays",
+     "tag": "ok",
+     "note": "~35 min · Python news and tools · Ep. 501–504 consecutive across four weeks",
+     "episodes": [
+      {
+       "id": "rPczSyhinpc",
+       "label": "Ep. 504 — Who turned the GIL back on? (~10 Nov)",
+       "len": "33:50"
+      },
+      {
+       "id": "o63T94KiWng",
+       "label": "Ep. 503 — It's not 85% HTML (~3 Nov)",
+       "len": "34:04"
+      },
+      {
+       "id": "V7m5MAhp4qE",
+       "label": "Ep. 502 — Introducing chameleon-rs (~27 Oct)",
+       "len": "37:41"
+      },
+      {
+       "id": "TGDze5W1EZ8",
+       "label": "Ep. 501 — A Nod to Sir-Mix-Alot (~20 Oct)",
+       "len": "43:56"
+      }
+     ],
+     "find": "https://www.youtube.com/@PythonBytes/videos",
+     "find_label": "All episodes on the channel"
+    },
+    {
+     "title": "Spring Boot & Java roundup (numbered 'W##')",
+     "channel": "Spring Universe",
+     "handle": "@SpringUniverse",
+     "cadence": "~weekly (W45 latest; one week appears skipped)",
+     "tag": "ok",
+     "tag2": "small channel",
+     "note": "6–10 min · Spring Boot / JDK / Java-ecosystem news of the week · the only weekly Java-side show found",
+     "episodes": [
+      {
+       "id": "mXlChNpxj_M",
+       "label": "Spring Boot 4.2 RC2, HTTP QUERY, RestTemplate Deprecated | W45 (~10 Nov)",
+       "len": "6:38"
+      },
+      {
+       "id": "NCTEPi415CQ",
+       "label": "Java Trust Store Alert, Spring Boot 4.2 RC1, JDK 28 AOT Code… (~2 Nov)",
+       "len": "10:14"
+      }
+     ],
+     "find": "https://www.youtube.com/@SpringUniverse/videos",
+     "find_label": "All videos on the channel"
+    },
+    {
+     "title": "Inside Java Newscast",
+     "channel": "Java (Oracle)",
+     "handle": "@java",
+     "cadence": "roughly monthly — not weekly",
+     "tag": "warn",
+     "secondary": true,
+     "note": "8 min · official Java news · latest is 4 weeks old",
+     "episodes": [
+      {
+       "id": "tn2lsyvzMvE",
+       "label": "OpenJDK Bug Fixing + JavaOne + JDK 28 (~16 Oct)",
+       "len": "8:13"
+      }
+     ],
+     "find": "https://www.youtube.com/@java/search?query=Inside%20Java%20Newscast",
+     "find_label": "Find all episodes on the channel"
+    },
+    {
+     "title": "Fireship — short coding/AI news videos",
+     "channel": "Fireship",
+     "handle": "@Fireship",
+     "cadence": "2–3 per week — not a weekly recap",
+     "tag": "warn",
+     "secondary": true,
+     "note": "5–6 min each · fastest way to catch the week's biggest dev + AI stories",
+     "episodes": [
+      {
+       "id": "SOwUWPtXQ9I",
+       "label": "Jensen Huang just pulled out of Nvidia… (~13 Nov)",
+       "len": "5:36"
+      },
+      {
+       "id": "1FurWDiK9A4",
+       "label": "Did Anthropic just save its $1 trillion IPO? (~11 Nov)",
+       "len": "5:34"
+      },
+      {
+       "id": "pf5tXJZM1Rw",
+       "label": "OpenAI spent $1.2 million hacking Linux… (~10 Nov)",
+       "len": "6:30"
+      },
+      {
+       "id": "iw9SZgyahqg",
+       "label": "The one thing holding theoretical CS together just broke (~7 Nov)",
+       "len": "6:01"
+      }
+     ],
+     "find": "https://www.youtube.com/@Fireship/videos",
+     "find_label": "All videos on the channel"
+    }
+   ],
+   "excluded": "Changelog News (not on YouTube in the last month). No weekly show found for new paradigms (Rust, agentic coding…) — Fireship is the closest, but it is 2–3 bite-size videos a week, not a recap."
+  },
+  {
+   "id": "ai",
+   "name": "8 · AI News",
+   "shows": [
+    {
+     "title": "AI News (weekly)",
+     "channel": "Matt Wolfe",
+     "handle": "@mreflow",
+     "cadence": "weekly · Fri/Sat",
+     "tag": "ok",
+     "note": "~25–31 min · the week's AI releases and stories, titled 'AI News: …' · five weeks in a row confirmed",
+     "episodes": [
+      {
+       "id": "G_Jrexy_5Bg",
+       "label": "AI News: Things Will Never Be The Same (~14 Nov)",
+       "len": "27:11"
+      },
+      {
+       "id": "IrAHINf0M6E",
+       "label": "AI News: New ChatGPT & Google Models (14 Updates Worth…) (~7 Nov)",
+       "len": "24:44"
+      },
+      {
+       "id": "eDiQNFa-zYg",
+       "label": "AI News: The Only 6 Stories Worth Knowing This Week (~31 Oct)",
+       "len": "29:21"
+      },
+      {
+       "id": "TVRCcMlvR10",
+       "label": "AI News: 24 Things You Need To Know This Week (~24 Oct)",
+       "len": "26:58"
+      },
+      {
+       "id": "KGcuuhqmPhI",
+       "label": "AI News: 6 New Models & A Nano Banana Killer (~17 Oct)",
+       "len": "31:08"
+      }
+     ],
+     "find": "https://www.youtube.com/@mreflow/search?query=%22AI%20News%22",
+     "find_label": "Find all episodes on the channel"
+    },
+    {
+     "title": "Hard Fork",
+     "channel": "The New York Times",
+     "cadence": "weekly · Fridays (+ some mid-week specials)",
+     "tag": "ok",
+     "tag2": "also covers wider tech",
+     "note": "~35–65 min · AI and tech-industry news of the week, with commentary",
+     "episodes": [
+      {
+       "id": "W79ML7zFyZg",
+       "label": "Inside the Downfall of the Most Powerful Man in A.I. (~13 Nov)",
+       "len": "37:33"
+      },
+      {
+       "id": "f1lBUs3suWM",
+       "label": "Why Tech Billionaires Couldn't Buy the 2026 Election (~7 Nov)",
+       "len": "1:07:13"
+      },
+      {
+       "id": "EGC7jht_mis",
+       "label": "What We Learned About Anthropic's Business (~31 Oct)",
+       "len": "52:54"
+      }
+     ],
+     "find": "https://www.youtube.com/results?search_query=Hard+Fork+New+York+Times+podcast",
+     "find_label": "Find all episodes (YouTube search)"
+    },
+    {
+     "title": "Weekly AI News Summary",
+     "channel": "AIPOD-CAST",
+     "handle": "@AIPOD-CAST",
+     "cadence": "weekly (Ep 231)",
+     "tag": "ok",
+     "tag2": "small channel",
+     "secondary": true,
+     "note": "~6 min · very short weekly summary",
+     "episodes": [
+      {
+       "id": "cJ9TgjMHC-A",
+       "label": "Episode 231: Weekly AI News Summary - 8 November 2026",
+       "len": "5:47"
+      }
+     ]
+    }
+   ],
+   "excluded": "The AI Advantage (only one recent video, no weekly-news format) and daily AI channels (AI News Daily, AI Daily Brief) — not weekly. Still hoping for one more deeper-analysis weekly."
+  }
+ ]
 }
