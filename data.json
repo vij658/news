@@ -1,8 +1,8 @@
 {
- "checkpoint": 5,
- "saved": "Mon 16 Nov 2026, ~01:40 CT",
+ "checkpoint": 6,
+ "saved": "Mon 16 Nov 2026, ~02:20 CT",
  "week": "9–15 Nov 2026",
- "status": "Research done; <strong>4 of 8 private playlists built</strong> in your YouTube (Finance 5 videos, World 5, USA 6, India 5). Sports, Tech, Coding and AI are next. Playlists are private and named \"Weekly News - &lt;Category&gt;\" — open YouTube → Library → Playlists. Searches were paced 30 s apart.",
+ "status": "<strong>All 8 private playlists are built</strong> in your YouTube account (Premium, signed in) — open <a href=\"https://www.youtube.com/feed/playlists\">Library → Playlists</a> and look for “Weekly News - …”. Counts were read back from YouTube: Finance 5, World 4, USA 6, India 5, Sports 5, Tech 5, Coding 6, AI 5. Each playlist holds the latest 1–2 episodes of every show below; for new weeks use the “find all episodes” links on each show.",
  "gaps": [
   "India: a mainstream (non-exam) weekly recap — two searches found nothing",
   "Sports: a true multi-sport weekly — built sport by sport instead",
@@ -170,7 +170,7 @@
    "excluded": "WION, DW News, Al Jazeera, Euronews — searched for a weekly recap show on each; only daily bulletins came back. World is the thinnest category: two solid weekly shows.",
    "playlist": {
     "name": "Weekly News - World",
-    "videos": 5
+    "videos": 4
    }
   },
   {
@@ -477,7 +477,11 @@
      "find_label": "Find all episodes (YouTube search)"
     }
    ],
-   "excluded": "NBA's Nightly Recap (daily, not weekly); EDIDAS TV 'Week 2 in Review' (NBA — unverified); generic 'Sports Weekly' / 'Sports Round Up' channels (weak signals)."
+   "excluded": "NBA's Nightly Recap (daily, not weekly); EDIDAS TV 'Week 2 in Review' (NBA — unverified); generic 'Sports Weekly' / 'Sports Round Up' channels (weak signals).",
+   "playlist": {
+    "name": "Weekly News - Sports",
+    "videos": 5
+   }
   },
   {
    "id": "tech",
@@ -566,7 +570,11 @@
      "find_label": "All episodes on the channel"
     }
    ],
-   "excluded": "The Vergecast (last video 3 weeks ago) and Waveform (4 weeks ago) — not dependable weekly sources on YouTube right now."
+   "excluded": "The Vergecast (last video 3 weeks ago) and Waveform (4 weeks ago) — not dependable weekly sources on YouTube right now.",
+   "playlist": {
+    "name": "Weekly News - Tech",
+    "videos": 5
+   }
   },
   {
    "id": "coding",
@@ -679,7 +687,11 @@
      "find_label": "All videos on the channel"
     }
    ],
-   "excluded": "Changelog News (not on YouTube in the last month). No weekly show found for new paradigms (Rust, agentic coding…) — Fireship is the closest, but it is 2–3 bite-size videos a week, not a recap."
+   "excluded": "Changelog News (not on YouTube in the last month). No weekly show found for new paradigms (Rust, agentic coding…) — Fireship is the closest, but it is 2–3 bite-size videos a week, not a recap.",
+   "playlist": {
+    "name": "Weekly News - Coding",
+    "videos": 6
+   }
   },
   {
    "id": "ai",
@@ -767,7 +779,11 @@
      ]
     }
    ],
-   "excluded": "The AI Advantage (only one recent video, no weekly-news format) and daily AI channels (AI News Daily, AI Daily Brief) — not weekly. Still hoping for one more deeper-analysis weekly."
+   "excluded": "The AI Advantage (only one recent video, no weekly-news format) and daily AI channels (AI News Daily, AI Daily Brief) — not weekly. Still hoping for one more deeper-analysis weekly.",
+   "playlist": {
+    "name": "Weekly News - AI",
+    "videos": 5
+   }
   }
  ]
 }
