@@ -1,13 +1,13 @@
 {
-  "checkpoint": 3,
-  "saved": "Mon 16 Nov 2026, ~00:50 CT",
+  "checkpoint": 4,
+  "saved": "Mon 16 Nov 2026, ~01:05 CT",
   "week": "9–15 Nov 2026",
-  "status": "Research is ~85% done: finance, world, USA, tech and AI have solid sources; India, sports and coding still have gaps. <strong>No playlists created yet</strong> — YouTube is signed in (Premium), so that step is ready. Playlists will be created as <strong>Private</strong> (change to Unlisted/Public any time). Searches are paced 30 s apart so YouTube does not rate-limit the session.",
+  "status": "Research is ~90% done. Finance, world, USA, tech, AI and Python have solid sources; India (mainstream), multi-sport and Java/new-paradigm coding are thin. <strong>No playlists created yet</strong> — YouTube is signed in (Premium); next step is creating 8 private playlists. Searches are paced 30 s apart so YouTube does not rate-limit the session.",
   "gaps": [
-    "India: a mainstream (non-exam) weekly recap",
-    "Sports: a true multi-sport weekly",
+    "India: a mainstream (non-exam) weekly recap — two searches found nothing",
+    "Sports: a true multi-sport weekly — built sport by sport instead",
     "World: a third solid weekly source",
-    "Coding: a weekly Java show and a weekly 'new paradigms' show (Rust, agentic coding…)",
+    "Coding: a weekly show for new paradigms (Rust, agentic coding…); Java only via a small channel",
     "FRANCE 24: capture the 7 Nov episode ID"
   ],
   "categories": [
@@ -590,6 +590,29 @@
           "find_label": "All episodes on the channel"
         },
         {
+          "title": "Spring Boot & Java roundup (numbered 'W##')",
+          "channel": "Spring Universe",
+          "handle": "@SpringUniverse",
+          "cadence": "~weekly (W45 latest; one week appears skipped)",
+          "tag": "ok",
+          "tag2": "small channel",
+          "note": "6–10 min · Spring Boot / JDK / Java-ecosystem news of the week · the only weekly Java-side show found",
+          "episodes": [
+            {
+              "id": "mXlChNpxj_M",
+              "label": "Spring Boot 4.2 RC2, HTTP QUERY, RestTemplate Deprecated | W45 (~10 Nov)",
+              "len": "6:38"
+            },
+            {
+              "id": "NCTEPi415CQ",
+              "label": "Java Trust Store Alert, Spring Boot 4.2 RC1, JDK 28 AOT Code… (~2 Nov)",
+              "len": "10:14"
+            }
+          ],
+          "find": "https://www.youtube.com/@SpringUniverse/videos",
+          "find_label": "All videos on the channel"
+        },
+        {
           "title": "Inside Java Newscast",
           "channel": "Java (Oracle)",
           "handle": "@java",
@@ -606,9 +629,42 @@
           ],
           "find": "https://www.youtube.com/@java/search?query=Inside%20Java%20Newscast",
           "find_label": "Find all episodes on the channel"
+        },
+        {
+          "title": "Fireship — short coding/AI news videos",
+          "channel": "Fireship",
+          "handle": "@Fireship",
+          "cadence": "2–3 per week — not a weekly recap",
+          "tag": "warn",
+          "secondary": true,
+          "note": "5–6 min each · fastest way to catch the week's biggest dev + AI stories",
+          "episodes": [
+            {
+              "id": "SOwUWPtXQ9I",
+              "label": "Jensen Huang just pulled out of Nvidia… (~13 Nov)",
+              "len": "5:36"
+            },
+            {
+              "id": "1FurWDiK9A4",
+              "label": "Did Anthropic just save its $1 trillion IPO? (~11 Nov)",
+              "len": "5:34"
+            },
+            {
+              "id": "pf5tXJZM1Rw",
+              "label": "OpenAI spent $1.2 million hacking Linux… (~10 Nov)",
+              "len": "6:30"
+            },
+            {
+              "id": "iw9SZgyahqg",
+              "label": "The one thing holding theoretical CS together just broke (~7 Nov)",
+              "len": "6:01"
+            }
+          ],
+          "find": "https://www.youtube.com/@Fireship/videos",
+          "find_label": "All videos on the channel"
         }
       ],
-      "excluded": "Still searching: a weekly Java show, and a weekly general-dev / new-paradigm (Rust, agentic coding, etc.) show."
+      "excluded": "Changelog News (not on YouTube in the last month). No weekly show found for new paradigms (Rust, agentic coding…) — Fireship is the closest, but it is 2–3 bite-size videos a week, not a recap."
     },
     {
       "id": "ai",
