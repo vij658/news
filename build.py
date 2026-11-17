@@ -96,6 +96,7 @@ page = f"""<!DOCTYPE html>
 <body><main>
 <h1>Weekly News Playlists — Research Checkpoint {n}</h1>
 <p class="sub">Saved {e(d["saved"])} · covers the week of {e(d["week"])} · every show below was checked on YouTube itself (title, upload date, length), not taken from web articles.</p>
+<p class="meta"><strong><a href="channels.html">→ Channel directory: 33 channels with links, upload days and reliability</a></strong></p>
 <nav>{nav}</nav>
 <div class="banner"><strong>Status:</strong> {d["status"]}<br><strong>Open gaps:</strong><ul>{gaps}</ul></div>
 {"".join(render_category(c) + chr(10) for c in d["categories"])}

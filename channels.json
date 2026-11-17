@@ -1,0 +1,90 @@
+{
+  "saved": "Tue 17 Nov 2026, ~02:30 CT",
+  "tiers": {
+    "core": "Core: established channel, weekly cadence checked on YouTube",
+    "seasonal": "Seasonal: weekly only while the season runs",
+    "backup": "Backup: weekly or close, but cadence only partly verified, or not a pure recap",
+    "small": "Small: tiny or new channel, weekly so far, may disappear"
+  },
+  "not_weekly": [
+    "PBS NewsHour (@PBSNewsHour): a full episode every weekday, so daily, not a weekly summary",
+    "India Global Review / Palki Sharma (@IndiaGlobalReview): daily shows and long live streams",
+    "NBA (@NBA): 'Nightly Recap' is daily",
+    "Changelog News (weekly developer news): nothing found on YouTube in the last month"
+  ],
+  "categories": [
+    {
+      "id": "finance", "name": "1 · Financial / Stock",
+      "channels": [
+        {"name": "Bloomberg Television", "handle": "@markets", "show": "Wall Street Week", "kw": "Wall Street Week", "when": "Fridays", "days": ["Fri"], "tier": "core", "note": "Weekly markets and economy show.", "seen": "5jw4WtsMQqU"},
+        {"name": "Fisher Investments", "handle": "@fisherinvestments", "show": "This Week in Review", "kw": "This Week in Review", "when": "Weekly, with some gaps", "days": [], "tier": "core", "note": "Weekly market wrap; a week is occasionally skipped.", "seen": "Zj1E7ZV0tdU"},
+        {"name": "USMarketNews24", "handle": "@USMarketNews24", "show": "Weekly Market Week in Review", "kw": "Weekly Market", "when": "Weekend (cadence not fully verified)", "days": [], "tier": "backup", "note": "Only one episode seen; confirm it posts every week.", "seen": "rhz1L_dOdf0"},
+        {"name": "Learning Curve Explained", "handle": "@LearningCurveExplained", "show": "Weekly Market Review (Indian stocks)", "kw": "Weekly Market Review", "when": "Around Friday close", "days": [], "tier": "small", "note": "India markets (Sensex/Nifty). New channel with 12 videos when checked, so unproven.", "seen": "VMWubR22VBg"}
+      ]
+    },
+    {
+      "id": "world", "name": "2 · World News",
+      "channels": [
+        {"name": "FRANCE 24 English", "handle": "@France24_en", "show": "The World This Week", "kw": "The World This Week", "when": "Fridays", "days": ["Fri"], "tier": "core", "note": "About 45 minutes, a Paris panel on the week's international stories. 40 episodes in 2026 so far.", "seen": "1vSTbVTSfSw", "extra": [{"label": "Official 2026 playlist (newest first)", "url": "https://www.youtube.com/playlist?list=PLCUKIeZnrIUmgNUHqQUnFtT1X8mxInDUc"}]},
+        {"name": "CNN", "handle": "@CNN", "show": "Fareed Zakaria GPS (full episode audio)", "kw": "Fareed Zakaria GPS Full Episode", "when": "Sundays", "days": ["Sun"], "tier": "core", "note": "Posted on the CNN channel, which also has many unrelated videos, so use the search link.", "seen": "l7BnnGbPP-8"},
+        {"name": "Osmocyst", "handle": "@Osmocyst", "show": "Weekly Roundup", "kw": "Weekly Roundup", "when": "Roughly weekly", "days": [], "tier": "small", "note": "821 subscribers when checked. Short global roundup, posted 6 days and 2 weeks before the check.", "seen": "Y0SkRbf5thc"}
+      ]
+    },
+    {
+      "id": "usa", "name": "3 · USA News",
+      "channels": [
+        {"name": "Washington Week with The Atlantic (PBS)", "handle": "@WashingtonWeekPBS", "show": "Washington Week", "kw": "Washington Week", "when": "Fridays", "days": ["Fri"], "tier": "core", "note": "About 27 minutes, a journalists' panel on the week in Washington.", "seen": "aPaDJiiMNMM"},
+        {"name": "ABC News", "handle": "@ABCNews", "show": "This Week with George Stephanopoulos", "kw": "This Week with George Stephanopoulos Full Broadcast", "when": "Sundays", "days": ["Sun"], "tier": "core", "note": "Newest seen was the 15 Nov full broadcast (47 min), newer than the one in your playlist.", "seen": "Mv6f13v7wcw"},
+        {"name": "NBC News", "handle": "@NBCNews", "show": "Meet the Press Full Episode", "kw": "Meet the Press Full Episode", "when": "Sundays", "days": ["Sun"], "tier": "core", "note": "The NBC News channel posts many other videos, so use the search link.", "seen": "E4QNLdteB2c"},
+        {"name": "Daily Brief Room", "handle": "@dailybriefroom", "show": "Last Week's News Recap in Under 10 Minutes", "kw": "Last Week's News Recap", "when": "Weekend", "days": [], "tier": "backup", "note": "Short recap of the Monday-to-Saturday news; the 8-14 Nov edition was found.", "seen": "4UdAtEsv5qI"}
+      ]
+    },
+    {
+      "id": "india", "name": "4 · India News",
+      "channels": [
+        {"name": "Vision IAS", "handle": "@VisionIASdelhi", "show": "Weekly Roundup | Current Affairs", "kw": "Weekly Roundup", "when": "Weekly, posted around Sunday", "days": ["Sun"], "tier": "core", "note": "UPSC-exam framing, but it covers the week's India and world news. Weekly every week since at least May.", "seen": "LZYeEm2rkio"},
+        {"name": "Drishti IAS (English)", "handle": "@DrishtiIASvideos", "show": "PIB Weekly Current Affairs", "kw": "PIB Weekly", "when": "Weekly (weekend)", "days": [], "tier": "core", "note": "Government-announcement-focused weekly digest, also exam-oriented.", "seen": "eXumKBdZqVc"},
+        {"name": "Newslaundry", "handle": "@newslaundry", "show": "TV Newsance (weekly media satire) + commentary", "kw": "TV Newsance", "when": "Weekly (weekend)", "days": [], "tier": "core", "note": "Not a neutral news summary: it is satire and critique of TV news. The best non-exam Indian weekly I found.", "seen": "DHqEojn8aqA"},
+        {"name": "Insights IAS", "handle": "@Insights_IAS", "show": "UPSC Weekly Newspaper Roundup", "kw": "Weekly Newspaper Roundup", "when": "Weekly (latest was 11 days old when checked)", "days": [], "tier": "backup", "note": "Exam-oriented; confirm it is still posting each week.", "seen": "i0ro9rVL3QM"},
+        {"name": "MADE EASY", "handle": "@MADEEASYEducation", "show": "Top Current Affairs (weekly range)", "kw": "Top Current Affairs", "when": "Cadence unverified", "days": [], "tier": "backup", "note": "Found one episode, 8-14 Nov.", "seen": "7wtLaUEG1YY"},
+        {"name": "CNBC-TV18", "handle": "@CNBC-TV18", "show": "Editors Discuss The Week Gone By & Road Ahead", "kw": "Week Gone By", "when": "Cadence unverified", "days": [], "tier": "backup", "note": "Business and markets view of the week. The episode seen was a live stream.", "seen": "qYNywkIFXuo"}
+      ]
+    },
+    {
+      "id": "sports", "name": "5 · Sports",
+      "channels": [
+        {"name": "NFL", "handle": "@NFL", "show": "Every Single Game Recap from Sunday Afternoon", "kw": "Every Single Game Recap", "when": "Sunday night or Monday, September to January", "days": ["Sun", "Mon"], "tier": "seasonal", "note": "All Sunday games in one video. Week 9 was the latest I had in the playlist.", "seen": "PbZOEMpiT0w"},
+        {"name": "NBC Sports", "handle": "@NBCSports", "show": "Premier League Review", "kw": "Premier League Review", "when": "After each matchweek, August to May", "days": [], "tier": "seasonal", "note": "Matchweek 10 was the latest in the playlist.", "seen": "zjL3wR2wv7g"},
+        {"name": "FORMULA 1", "handle": "@Formula1", "show": "F1 Nation podcast (post-race review)", "kw": "F1 Nation", "when": "Race weeks, March to December", "days": [], "tier": "seasonal", "note": "Weekly only on race weeks.", "seen": "bdNF-he0RcE"},
+        {"name": "Cricotainment", "handle": "@Cricotainment3", "show": "WeeklyPedia (Tamil cricket weekly)", "kw": "WeeklyPedia", "when": "Weekly (Episode 96 was dated 12 Nov)", "days": ["Thu"], "tier": "core", "note": "In Tamil.", "seen": "fuR1DwHDGWs"},
+        {"name": "May The Sports Be With You", "handle": "@MayTheSportsBeWithYou", "show": "Weekly multi-sport recap (NFL, college, NHL, NBA, MLB)", "kw": "Recap", "when": "One or two long episodes (about an hour) each week", "days": [], "tier": "small", "note": "The only multi-sport weekly I found. Very small: 2 subscribers and single-digit views, so treat it as a maybe.", "seen": "9T8Z63eI_aE"}
+      ]
+    },
+    {
+      "id": "tech", "name": "6 · Tech",
+      "channels": [
+        {"name": "TWiT: Tech News Weekly", "handle": "@TechNewsWeeklyPodcast", "show": "Tech News Weekly", "kw": "", "when": "Thursdays", "days": ["Thu"], "tier": "core", "note": "Small dedicated channel, so just open the Videos tab.", "seen": "hgsnS4l-lMU"},
+        {"name": "TWiT: This Week in Tech", "handle": "@ThisWeekinTech", "show": "This Week in Tech", "kw": "", "when": "Sundays", "days": ["Sun"], "tier": "core", "note": "Long panel show (more than 2 hours).", "seen": "aXJZ8oXtu1s"},
+        {"name": "WAN Show (Linus Tech Tips)", "handle": "@WANShowYT", "show": "WAN Show", "kw": "", "when": "Fridays", "days": ["Fri"], "tier": "core", "note": "Long weekly news-and-banter show from Linus Tech Tips.", "seen": "-FTdaQT6P9w"}
+      ]
+    },
+    {
+      "id": "coding", "name": "7 · Coding (Java, Python, new paradigms)",
+      "channels": [
+        {"name": "Python Bytes", "handle": "@PythonBytes", "show": "Python Bytes podcast", "kw": "", "when": "Mondays", "days": ["Mon"], "tier": "core", "note": "Weekly Python news. Episode 504 was the latest seen.", "seen": "rPczSyhinpc"},
+        {"name": "Spring Universe", "handle": "@SpringUniverse", "show": "Spring Boot and Java weekly roundup ('W##')", "kw": "Spring Boot", "when": "About weekly (one week looked skipped)", "days": [], "tier": "backup", "note": "The best weekly Java-ecosystem news I found, but a small channel.", "seen": "mXlChNpxj_M"},
+        {"name": "Java (Oracle)", "handle": "@java", "show": "Inside Java Newscast", "kw": "Inside Java Newscast", "when": "Roughly monthly, not weekly", "days": [], "tier": "backup", "note": "Official Java news. Monthly is the best Oracle offers.", "seen": "tn2lsyvzMvE"},
+        {"name": "Fireship", "handle": "@Fireship", "show": "Short coding and AI news videos", "kw": "", "when": "2 to 3 videos a week", "days": [], "tier": "backup", "note": "Not a weekly recap, but the closest to 'any new paradigm' news.", "seen": "SOwUWPtXQ9I"}
+      ]
+    },
+    {
+      "id": "ai", "name": "8 · AI",
+      "channels": [
+        {"name": "Matt Wolfe", "handle": "@mreflow", "show": "AI News (weekly)", "kw": "AI News", "when": "Friday or Saturday", "days": ["Fri", "Sat"], "tier": "core", "note": "Long weekly AI news video (about 27 min).", "seen": "G_Jrexy_5Bg"},
+        {"name": "Hard Fork (New York Times)", "handle": "@hardfork", "show": "Hard Fork", "kw": "", "when": "Fridays, plus occasional mid-week specials", "days": ["Fri"], "tier": "core", "note": "Tech and AI news podcast with its own channel.", "seen": "W79ML7zFyZg"},
+        {"name": "AIPOD-CAST", "handle": "@AIPOD-CAST", "show": "Weekly AI News Summary", "kw": "Weekly AI News Summary", "when": "Weekly (episode 231 dated 8 Nov)", "days": [], "tier": "backup", "note": "Consistent numbering, so easy to follow.", "seen": "cJ9TgjMHC-A"},
+        {"name": "AI News Today", "handle": "@sanjaynishi", "show": "Saturday: AI Week in Review", "kw": "AI Week in Review", "when": "Saturdays (plus 4-minute daily AI news)", "days": ["Sat"], "tier": "small", "note": "183 subscribers. Weekly review plus daily clips.", "seen": "rLnU0nguNcI"}
+      ]
+    }
+  ]
+}

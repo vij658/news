@@ -1,13 +1,13 @@
 {
- "checkpoint": 6,
- "saved": "Mon 16 Nov 2026, ~02:20 CT",
+ "checkpoint": 7,
+ "saved": "Tue 17 Nov 2026, ~02:45 CT",
  "week": "9–15 Nov 2026",
- "status": "<strong>All 8 private playlists are built</strong> in your YouTube account (Premium, signed in) — open <a href=\"https://www.youtube.com/feed/playlists\">Library → Playlists</a> and look for “Weekly News - …”. Counts were read back from YouTube: Finance 5, World 4, USA 6, India 5, Sports 5, Tech 5, Coding 6, AI 5. Each playlist holds the latest 1–2 episodes of every show below; for new weeks use the “find all episodes” links on each show.",
+ "status": "<strong>All 8 private playlists are built</strong> in your YouTube account (Premium, signed in) — open <a href=\"https://www.youtube.com/feed/playlists\">Library → Playlists</a> and look for “Weekly News - …”. Counts were read back from YouTube: Finance 5, World 4, USA 6, India 5, Sports 5, Tech 5, Coding 6, AI 5. Each playlist holds the latest 1–2 episodes of every show below; for new weeks use the “find all episodes” links on each show. <strong>Checkpoint 7:</strong> added a <a href=\"channels.html\">channel directory</a> (33 channels, all links tested).",
  "gaps": [
-  "India: a mainstream (non-exam) weekly recap — two searches found nothing",
-  "Sports: a true multi-sport weekly — built sport by sport instead",
-  "World: a third solid weekly source",
-  "Coding: a weekly show for new paradigms (Rust, agentic coding…); Java only via a small channel"
+  "India: no mainstream (non-exam) weekly recap; exam channels (Vision IAS, Drishti) and Newslaundry are the closest",
+  "Sports: no large multi-sport weekly; only one tiny channel (May The Sports Be With You) does one",
+  "World: only two solid weekly sources (FRANCE 24, CNN GPS) plus one small channel (Osmocyst)",
+  "Coding: no weekly show for new paradigms (Rust, agentic coding); Java news is monthly (Inside Java) or from a small channel (Spring Universe)"
  ],
  "categories": [
   {
